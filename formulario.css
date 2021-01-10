@@ -1,4 +1,6 @@
-/* Todos os elementos da página */
+/* tradución al español con ayuda de google */
+
+/* Todos os elementos de la página */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +24,7 @@
     display: inline-block;
 }
 
-/* Elementos de tag <fieldset>*/
+/* Elementos del tag <fieldset>*/
 fieldset {
     border: 0;
 }
@@ -46,12 +48,12 @@ input, select, textarea, button {
     border-radius: 5px;
 }
 
-/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+/* Elementos de la clase "grupo" en los estados de las pseudoclasses "before" e "after" */
 .grupo:before, .grupo:after {
     display: table;
 }
 
-/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+/* Elementos de classe "grupo" en los estados de las pseudoclasse "after" */
 .grupo:after {
     clear: both;
 }
@@ -68,13 +70,13 @@ input, select, textarea, button {
     display: block;
 }
 
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+/* Elementos de classe "campo" o "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
     float:  left;
     margin-right: 1em;
 }
 
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+/* Elementos de classe "campo" de las tags <input> com atributo text e email, de la tag <select> y de la tag <textarea>*/
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
     border: 1px solid #59429d;
@@ -82,12 +84,12 @@ fieldset.grupo .campo {
     display: block;
 }
 
-/* Elementos de classe "campo" de tag <select> e <option>*/
+/* Elementos de classe "campo" de tag <select> y <option>*/
 .campo select option {
     padding-right: 1em;
 }
 
-/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+/* Elemento de classe "campo" del tag <input>, <select> e <textarea> del grupo de pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #E0E0F8;
 }
@@ -116,7 +118,7 @@ fieldset.grupo .campo {
     text-shadow: none;
 }
 
-/* Elementos de classe botão e de tag <select> */
+/* Elementos de classe botão y del tag <select> */
 .botao, select{
     cursor: pointer;
 }
